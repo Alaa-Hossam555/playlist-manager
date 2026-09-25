@@ -86,6 +86,7 @@ public:
                 for (int k = j; k < (i - 1); k++)
                 {
                     library[k] = library[k + 1];
+                    library[k]->setID(k + 1);
                 }
                 i--;
                 cout << "[OK] Item got deleted" << endl;
