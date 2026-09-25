@@ -143,7 +143,7 @@ void show_upnextQueue()
             }
             for (int h = 0; h < i; h++)
             {
-                cout << library[h]->getID() << ". " << library[h]->getTitle() << endl;
+                cout <<  h + 1  << ". " << library[h]->getTitle() << endl;
             }
             cout << "Track ID: ";
             cin >> id;
